@@ -1,0 +1,42 @@
+# SignSync Default Configuration
+
+app:
+  name: "SignSync"
+  version: "0.1.0"
+  data_dir: "data"
+  models_dir: "models"
+
+recognition:
+  confidence_threshold: 0.85
+  min_detection_confidence: 0.7
+  min_tracking_confidence: 0.5
+  sliding_window_size: 30
+  model_path: "models/hand_gesture_classifier.tflite"
+
+translation:
+  context_window_size: 5
+  autocorrect_enabled: true
+  tts_voice: "en-US-Neural2-F"
+  tts_speed: 1.0
+
+video:
+  width: 1280
+  height: 720
+  fps: 30
+  camera_index: 0
+
+gui:
+  theme: "system"
+  high_contrast: false
+  font_size: 12
+  overlay_opacity: 0.8
+
+performance:
+  threads: 4
+  force_cpu_only: false
+  memory_limit_mb: 500
+
+logging:
+  level: "INFO"
+  file_enabled: true
+  console_enabled: true 

@@ -1,0 +1,34 @@
+# Core Libraries
+numpy>=1.22.0
+opencv-python>=4.6.0
+mediapipe>=0.9.0
+tensorflow>=2.9.0
+pytorch>=1.13.0
+
+# UI Framework
+PyQt6>=6.3.0
+
+# Audio Processing
+gTTS>=2.2.4
+pygame>=2.1.2
+speech_recognition>=3.8.1
+pydub>=0.25.1
+
+# Video Call Integration
+aiortc>=1.3.2
+pyautogui>=0.9.53
+
+# 3D Visualization and AR
+open3d>=0.16.0
+
+# Utilities
+tqdm>=4.64.0
+pillow>=9.2.0
+matplotlib>=3.5.3
+pandas>=1.4.3
+
+# Development Tools
+pytest>=7.1.3
+mypy>=0.971
+flake8>=5.0.4
+black>=22.8.0
